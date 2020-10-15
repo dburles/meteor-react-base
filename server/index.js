@@ -9,6 +9,6 @@ Meteor.startup(() => {
   }
 });
 
-Meteor.publish('books', function() {
+Meteor.publish('books', function () {
   return Books.find();
 });

@@ -24,7 +24,7 @@ const Page = () => {
           <Spinner />
         ) : (
           <ul>
-            {books.map(book => (
+            {books.map((book) => (
               <li key={book._id}>{book.name}</li>
             ))}
           </ul>
