@@ -12,3 +12,11 @@ Meteor.startup(() => {
 Meteor.publish('books', function () {
   return Books.find();
 });
+
+Meteor.publish('books2', function () {
+  return Books.find({ name: 'Book 1' });
+});
+
+Meteor.publish('books3', function (name) {
+  return Books.find({ name });
+});
