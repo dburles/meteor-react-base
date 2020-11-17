@@ -34,8 +34,8 @@
     "@theme-ui/preset-bulma": "^0.3.0",
     "eslint-import-resolver-meteor": "^0.4.0",
     "meteor-node-stubs": "^1.0.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "0.14.0",
+    "react-dom": "0.0.0-experimental-4ead6b530",
     "theme-ui": "^0.3.1"
   },
   "eslintConfig": {
